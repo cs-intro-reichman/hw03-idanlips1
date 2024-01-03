@@ -30,7 +30,7 @@
             "request": "launch",
             "mainClass": "LoanCalc",
             "projectName": "hw03-idanlips1_6060fb00",
-            "args": ["4000000", "3.4", "25"]
+            "args": ["100000", "3", "12"]
         },
         {
             "type": "java",
