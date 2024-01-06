@@ -1,4 +1,5 @@
-/**
+public class Calender {
+    /**
  * Prints the calendars of all the years in the 20th century.
  */
 public class Calendar1 {
@@ -23,9 +24,10 @@ public class Calendar1 {
 		// were advanced so far.
 		int sundayCount = 0;
 		int debugDaysCounter = 0;
+		int givenYear = Integer.parseInt(args[0]);
 		//// Write the necessary initialization code, and replace the condition
 		//// of the while loop with the necessary condition
-		while (year != 2000) {
+		while (year != givenYear - 1) {
 			if (dayOfWeek == 1) {
 				System.out.println(dayOfMonth + "/" + month + "/" + year + " Sunday");
 			}
@@ -106,4 +108,7 @@ public class Calendar1 {
 
 		return days;
 	}
+}
+
+    
 }
