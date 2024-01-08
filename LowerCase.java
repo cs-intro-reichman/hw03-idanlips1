@@ -7,8 +7,8 @@ public class LowerCase {
     }
 
     public static String lowerCase(String s) {
-        String newString = "" + (char) (s.charAt(0) + 32);
-        for (int i = 1; i < s.length(); i++) {
+        String newString = "";
+        for (int i = 0; i < s.length(); i++) {
             char curChar = s.charAt(i);
             if (curChar == ' ') {
                 newString += ' ';

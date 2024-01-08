@@ -44,7 +44,8 @@
             "name": "LowerCase",
             "request": "launch",
             "mainClass": "LowerCase",
-            "projectName": "hw03-idanlips1_6060fb00"
+            "projectName": "hw03-idanlips1_6060fb00",
+            "args": "MixedCase+symbols"
         },
         {
             "type": "java",
@@ -52,7 +53,7 @@
             "request": "launch",
             "mainClass": "UniqueChars",
             "projectName": "hw03-idanlips1_6060fb00",
-            "args": "beautiful"
+            "args": "programming"
         }
     ]
 }

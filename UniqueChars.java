@@ -15,7 +15,7 @@ public class UniqueChars {
         for (int i = 0; i < s.length(); i++) {
             if (unique.indexOf(s.charAt(i)) == -1 && s.charAt(i) != ' ') {
                 unique += s.charAt(i);
-            } else {
+            } else if (unique.indexOf(s.charAt(i)) == -1 && s.charAt(i) == ' '){
                 unique += ' ';
             }
 
