@@ -12,14 +12,25 @@ public class UniqueChars {
      */
     public static String uniqueChars(String s) {
         String unique = "";
+        boolean duplicate;
+        char temp;
+        int index;
+
         for (int i = 0; i < s.length(); i++) {
-            if (unique.indexOf(s.charAt(i)) == -1 && s.charAt(i) != ' ') {
-                unique += s.charAt(i);
-            } else if (unique.indexOf(s.charAt(i)) == -1 && s.charAt(i) == ' '){
-                unique += ' ';
+            duplicate = false;
+
+            if (s.charAt(i) != ' ') {
+                index = s.indexOf(s.charAt(i));
+                temp = s.charAt(index);
+
+                if ((s.charAt(i) == temp) && (i != index))
+                    duplicate = true;
             }
 
+            if (!duplicate)
+                unique += s.charAt(i);
         }
+
         return unique;
     }
 }
