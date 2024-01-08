@@ -51,7 +51,8 @@
             "name": "UniqueChars",
             "request": "launch",
             "mainClass": "UniqueChars",
-            "projectName": "hw03-idanlips1_6060fb00"
+            "projectName": "hw03-idanlips1_6060fb00",
+            "args": "beautiful"
         }
     ]
 }
