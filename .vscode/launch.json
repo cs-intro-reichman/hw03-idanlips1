@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Calendar",
+            "request": "launch",
+            "mainClass": "Calendar",
+            "projectName": "hw03-idanlips1_6060fb00"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
